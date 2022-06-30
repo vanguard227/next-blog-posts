@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> matches snapshot 1`] = `
+<div
+  className="sc-bczRLJ dxVBep"
+>
+  <button
+    className="sc-gsnTZi cKArfX"
+    disabled={true}
+    onClick={[Function]}
+  >
+    &lt;&lt;
+  </button>
+  <button
+    className="sc-gsnTZi cKArfX"
+    disabled={true}
+    onClick={[Function]}
+  >
+    &lt;
+  </button>
+  <label
+    className="sc-dkzDqf eWqzzO"
+  >
+    1
+  </label>
+  <button
+    className="sc-gsnTZi gwXKYL"
+    disabled={false}
+    onClick={[Function]}
+  >
+    &gt;
+  </button>
+  <button
+    className="sc-gsnTZi gwXKYL"
+    disabled={false}
+    onClick={[Function]}
+  >
+    &gt;&gt;
+  </button>
+</div>
+`;

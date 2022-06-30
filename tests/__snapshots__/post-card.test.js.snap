@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCard /> matches snapshot 1`] = `
+<div
+  className="sc-bczRLJ htlnsA"
+>
+  <h3>
+    Title1
+  </h3>
+  <span>
+    10/7/2020
+  </span>
+  <p>
+    Post description
+  </p>
+  <div
+    className="sc-dkzDqf ffKjMI"
+  >
+    <div>
+      <div
+        className="sc-hKMtZM bjFhZq"
+      >
+        <img
+          alt="image"
+          src="https://i.pinimg.com/564x/64/a5/f2/64a5f243aa5efbea4bb704007459f4c3--create-a-cartoon-annoying-things.jpg"
+        />
+      </div>
+      <p>
+        John Smith
+      </p>
+    </div>
+  </div>
+  <button
+    className="sc-gsnTZi bioVKy"
+    onClick={[Function]}
+  >
+    Comments (
+    1
+    )
+  </button>
+</div>
+`;

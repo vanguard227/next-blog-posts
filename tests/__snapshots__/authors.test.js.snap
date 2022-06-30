@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Authors /> matches snapshot 1`] = `
+<div
+  className="sc-bczRLJ hWmmZ"
+>
+  <div>
+    <div
+      className="sc-gsnTZi ikcVbO"
+    >
+      <img
+        alt="image"
+        src="https://i.pinimg.com/564x/64/a5/f2/64a5f243aa5efbea4bb704007459f4c3--create-a-cartoon-annoying-things.jpg"
+      />
+    </div>
+    <p>
+      John Smith
+    </p>
+  </div>
+</div>
+`;

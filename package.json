@@ -6,19 +6,35 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
+    "@babel/preset-typescript": "^7.18.6",
     "next": "12.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-query": "^3.39.1",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
     "@types/node": "18.0.0",
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
+    "babel-jest": "^28.1.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "eslint": "8.18.0",
     "eslint-config-next": "12.2.0",
+    "jest": "^28.1.2",
+    "react-test-renderer": "^18.2.0",
     "typescript": "4.7.4"
+  },
+  "jest": {
+    "setupFiles": [
+      "./tests/setupTest.js"
+    ]
   }
 }

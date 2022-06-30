@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Comments /> matches snapshot 1`] = `
+<div
+  className="sc-bczRLJ feWHbK"
+>
+  <div>
+    <h6>
+      Comment1
+    </h6>
+    <span>
+      10/7/2020
+    </span>
+    <p>
+      Comment description
+    </p>
+  </div>
+</div>
+`;
